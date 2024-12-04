@@ -15,23 +15,43 @@
         "slide-0": {
           "type": "slide",
           "settings": {
-            "heading": "Browse our latest products test",
+            "image": "shopify://shop_images/Header-Banner-1.png",
+            "heading": "THE PEOPLE BEHIND THE SCENE FIND OUR STORE",
             "heading_size": "h1",
             "subheading": "",
-            "button_label": "Shop all",
+            "button_label": "View more",
             "link": "shopify://collections/all",
             "button_style_secondary": false,
-            "box_align": "middle-left",
+            "box_align": "top-center",
             "show_text_box": true,
             "text_alignment": "left",
             "image_overlay_opacity": 10,
-            "color_scheme": "scheme-2",
-            "text_alignment_mobile": "left"
+            "color_scheme": "scheme-f3145463-c373-4836-8a75-8d5b31a0fc5a",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_dRVEnw": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Header-Banner-2.png",
+            "heading": "THE PEOPLE BEHIND THE SCENE FIND OUR STORE",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "View more",
+            "link": "shopify://collections/all",
+            "button_style_secondary": false,
+            "box_align": "top-center",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 10,
+            "color_scheme": "scheme-f3145463-c373-4836-8a75-8d5b31a0fc5a",
+            "text_alignment_mobile": "center"
           }
         }
       },
       "block_order": [
-        "slide-0"
+        "slide-0",
+        "slide_dRVEnw"
       ],
       "settings": {
         "layout": "full_bleed",

@@ -91,7 +91,9 @@
         "slide_f7qB33",
         "slide_YepiBN"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".slideshow__slide .banner__box {max-width: 80%; min-width: 75%;}"
+      ],
       "settings": {
         "layout": "full_bleed",
         "slide_height": "medium",

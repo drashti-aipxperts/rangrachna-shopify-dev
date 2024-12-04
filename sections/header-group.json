@@ -18,7 +18,8 @@
         "h1.header__heading {padding: 0;}",
         ".header__heading .header__heading-logo-wrapper {vertical-align: top;}",
         ".header__heading .header__heading-link {margin: 0px; padding: 0;}",
-        ".header__heading img {max-width: 92px; display: block;}"
+        ".header__heading img {max-width: 92px; display: block;}",
+        "a.header__menu-item {position: relative; display: inline-block; width: 100%; vertical-align: top; padding: 0 20px; color: #a55e3f; font-size: 11px; line-height: 24px; font-weight: 600; letter-spacing: .28em; text-transform: uppercase;}"
       ],
       "settings": {
         "logo_position": "middle-left",

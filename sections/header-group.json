@@ -14,9 +14,10 @@
     "header": {
       "type": "header",
       "custom_css": [
-        "header{padding:0px;}",
+        "header {padding: 0px;}",
         "h1.header__heading {padding: 0;}",
         ".header__heading .header__heading-logo-wrapper {vertical-align: top;}",
+        ".header__heading .header__heading-link{margin:0px; padding:0;}",
         ".header__heading img {max-width: 92px; display: block;}"
       ],
       "settings": {

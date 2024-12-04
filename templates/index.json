@@ -47,11 +47,30 @@
             "color_scheme": "scheme-f3145463-c373-4836-8a75-8d5b31a0fc5a",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_f7qB33": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Header-Banner-3.png",
+            "heading": "THE PEOPLE BEHIND THE SCENE FIND OUR STORE",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "View more",
+            "link": "shopify://collections/all",
+            "button_style_secondary": false,
+            "box_align": "top-center",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 10,
+            "color_scheme": "scheme-f3145463-c373-4836-8a75-8d5b31a0fc5a",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "slide-0",
-        "slide_dRVEnw"
+        "slide_dRVEnw",
+        "slide_f7qB33"
       ],
       "settings": {
         "layout": "full_bleed",

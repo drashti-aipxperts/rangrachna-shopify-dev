@@ -42,9 +42,9 @@
             "button_style_secondary": false,
             "box_align": "top-center",
             "show_text_box": true,
-            "text_alignment": "left",
-            "image_overlay_opacity": 10,
-            "color_scheme": "scheme-f3145463-c373-4836-8a75-8d5b31a0fc5a",
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-2",
             "text_alignment_mobile": "center"
           }
         },

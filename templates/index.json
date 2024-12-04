@@ -92,8 +92,7 @@
         "slide_YepiBN"
       ],
       "custom_css": [
-        ".slideshow__slide .banner__box {max-width: 80%; min-width: 75%;}",
-        ".slideshow__slide .banner__buttons a.button {background: transparent;}"
+        ".slideshow__slide .banner__box {max-width: 80%; min-width: 75%;}"
       ],
       "settings": {
         "layout": "full_bleed",

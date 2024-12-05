@@ -27,8 +27,7 @@
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center",
-            "class_name":"test"
+            "text_alignment_mobile": "center"
           }
         },
         "slide_dRVEnw": {
@@ -92,9 +91,7 @@
         "slide_f7qB33",
         "slide_YepiBN"
       ],
-      "custom_css": [
-        ".slideshow__slide .banner__box {max-width: 80%; min-width: 75%;}"
-      ],
+      "custom_css": [],
       "settings": {
         "layout": "full_bleed",
         "slide_height": "small",

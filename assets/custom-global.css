@@ -30,7 +30,7 @@
     letter-spacing: 0.28em;
     text-transform: uppercase;
 }
-.slideshow__slide .banner__box {
+.hp-hero-slider .slideshow__slide .banner__box {
     max-width: 80%;
     min-width: 75%;
 }

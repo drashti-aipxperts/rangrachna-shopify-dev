@@ -1,23 +1,23 @@
-.header {
+.section-header .header {
     padding: 0px;
     grid-template-columns: 1fr auto 1fr;
   }
-  h1.header__heading {
+.section-header h1.header__heading {
     padding: 0;
     font-size: 0;
   }
-  .header__heading .header__heading-logo-wrapper {
+.section-header .header__heading .header__heading-logo-wrapper {
     vertical-align: top;
   }
-  .header__heading .header__heading-link {
+.section-header .header__heading .header__heading-link {
     margin: 0px;
     padding: 0;
   }
-  .header__heading img {
+.section-header .header__heading img {
     max-width: 92px;
     display: block;
   }
-  a.header__menu-item {
+.section-header a.header__menu-item {
     position: relative;
     display: inline-block;
     width: 100%;
@@ -29,8 +29,8 @@
     font-weight: 600;
     letter-spacing: 0.28em;
     text-transform: uppercase;
-  }
-  .slideshow__slide .banner__box {
+}
+.slideshow__slide .banner__box {
     max-width: 80%;
     min-width: 75%;
-  }
+}

@@ -161,3 +161,6 @@
 .hp-hero-slider .slideshow__control-wrapper{
     margin-top: -80px;
 }
+.hp-hero-slider .banner__box>*+.banner__buttons {
+    margin-top: 10rem;
+}

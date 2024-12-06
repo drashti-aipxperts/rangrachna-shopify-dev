@@ -181,11 +181,16 @@
         "padding_top": 60,
         "padding_bottom": 60
       }
+    },
+    "2_col_with_text_image_rmyq9U": {
+      "type": "2-col-with-text-image",
+      "settings": {}
     }
   },
   "order": [
     "slideshow",
     "image_with_text_xYpnAz",
-    "featured-collection-0"
+    "featured-collection-0",
+    "2_col_with_text_image_rmyq9U"
   ]
 }

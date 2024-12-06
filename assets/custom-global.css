@@ -185,6 +185,7 @@
 }
 .image-with-text__content .image-txt-right{
     text-align: right;
+    width: 100%;
 }
 .image-with-text__content .image-txt-center{
     text-align: center;

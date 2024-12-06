@@ -184,7 +184,9 @@
     },
     "2_col_with_text_image_rmyq9U": {
       "type": "2-col-with-text-image",
-      "settings": {}
+      "settings": {
+        "headline": "Hello text & image"
+      }
     }
   },
   "order": [

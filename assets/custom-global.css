@@ -165,13 +165,21 @@
     margin-top: 10rem;
 }
 /* About info section */
-.abt-info .image-with-text .grid__item{
-    margin-top: 6rem;
-}
 .abt-info .image-with-text__media img{
     object-fit: contain;
     object-position: top center;
 }
 .abt-info .image-with-text__content {
-    padding: 6rem 0rem 7rem;
+    padding: 0rem;
+}
+.abt-info {
+    background: linear-gradient(100deg, #F90 0%, #E31506 27.6%, #930173 52.08%, #04006C 100%);
+    padding: 120px 100px !important;
+}
+.abt-info .page-width{
+    padding: 0;
+}
+.abt-info .page-width,
+.abt-info .page-width h2{
+    color: #ffffff;
 }

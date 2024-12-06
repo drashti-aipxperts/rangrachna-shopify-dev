@@ -84,10 +84,6 @@
                   <div class="image-with-text__text rte {{ block.settings.text_style }} image-txt-{{ block.settings.alignment }}" {{ block.shopify_attributes }}>
                     {{ block.settings.text }}
                   </div>
-                {%- when 'text_2' -%}
-                  <div class="image-with-text__text rte {{ block.settings.text_style_2 }} image-txt-{{ block.settings.alignment_2 }}" {{ block.shopify_attributes }}>
-                    {{ block.settings.text_2 }}
-                  </div>
                 {%- when 'button' -%}
                   {%- if block.settings.button_label != blank -%}
                     <a

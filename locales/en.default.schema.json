@@ -1522,28 +1522,6 @@
         "name": "Image with text"
       }
     },
-    "2-col-txt-img": {
-      "name": "2 col with text & image",
-      "settings": {
-        "heading_sec": {
-          "label": "Heading"
-        }
-      },
-      "blocks": {
-        "sub_heading": {
-          "name": "Sub Heading",
-          "settings": {
-            "heading": {
-              "label": "Sub Heading",
-              "default": "Image with text"
-            }
-          }
-        }
-      },
-      "presets": {
-        "name": "2 Columm with text & image"
-      }
-    },
     "multirow": {
       "name": "Multirow",
       "settings": {

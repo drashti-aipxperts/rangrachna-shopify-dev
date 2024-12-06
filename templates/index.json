@@ -128,6 +128,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/about_rang_rachana-1.png",
+        "image_box_class": "abt-info",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",

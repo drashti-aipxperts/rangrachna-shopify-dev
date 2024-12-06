@@ -164,3 +164,14 @@
 .hp-hero-slider .banner__box>*+.banner__buttons {
     margin-top: 10rem;
 }
+/* About info section */
+.abt-info .image-with-text .grid__item{
+    margin-top: 6rem;
+}
+.abt-info .image-with-text__media img{
+    object-fit: contain;
+    object-position: top center;
+}
+.abt-info .image-with-text__content {
+    padding: 6rem 0rem 7rem;
+}

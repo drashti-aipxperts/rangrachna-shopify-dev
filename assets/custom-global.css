@@ -183,12 +183,12 @@
 .abt-info .page-width h2{
     color: #ffffff;
 }
-.image-txt-right{
+.image-with-text__content .image-txt-right{
     text-align: right;
 }
-.image-txt-center{
+.image-with-text__content .image-txt-center{
     text-align: center;
 }
-.image-txt-left{
+.image-with-text__content .image-txt-left{
     text-align: left;
 }

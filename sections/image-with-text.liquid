@@ -84,6 +84,10 @@
                   <div class="image-with-text__text rte {{ block.settings.text_style }} image-txt-{{ block.settings.alignment }}" {{ block.shopify_attributes }}>
                     {{ block.settings.text }}
                   </div>
+                {%- when 'text_2' -%}
+                  <div class="image-with-text__text rte {{ block.settings.text_style_2 }} image-txt-{{ block.settings.alignment_2 }}" {{ block.shopify_attributes }}>
+                    {{ block.settings.text_2 }}
+                  </div>
                 {%- when 'button' -%}
                   {%- if block.settings.button_label != blank -%}
                     <a
@@ -452,6 +456,41 @@
           ],
           "default": "body",
           "label": "t:sections.image-with-text.blocks.text.settings.text_style.label"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "t:sections.image-with-text.blocks.text_2.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "text_2",
+          "default": "t:sections.image-with-text.blocks.text_2.settings.text.default",
+          "label": "t:sections.image-with-text.blocks.text_2.settings.text.label"
+        },
+        {
+          "type": "text_alignment",
+          "id": "alignment_2",
+          "label": "Text alignment",
+          "default": "center"
+        },
+        {
+          "type": "select",
+          "id": "text_style_2",
+          "options": [
+            {
+              "value": "body",
+              "label": "t:sections.image-with-text.blocks.text_2.settings.text_style.options__1.label"
+            },
+            {
+              "value": "subtitle",
+              "label": "t:sections.image-with-text.blocks.text_2.settings.text_style.options__2.label"
+            }
+          ],
+          "default": "body",
+          "label": "t:sections.image-with-text.blocks.text_2.settings.text_style.label"
         }
       ]
     },

@@ -111,6 +111,7 @@
     position: absolute;
     top: 50%;
 }
+
 .hp-hero-slider .slider-button.slider-button--prev {
     transform: translate(-10px, -5px) rotate(180deg) scale(1, -1);
     left: 0;
@@ -118,7 +119,11 @@
 .hp-hero-slider .slider-button.slider-button--next {
     transform: translate(-40px, -5px);
     left: auto;
-    right: -40px;
+    right: -50px;
+}
+.hp-hero-slider .banner__buttons .button span{
+    position: relative;
+    z-index: 1;
 }
 .hp-hero-slider .slider-button span {
     height: 100px;
@@ -133,14 +138,17 @@
     width: 80px;
     background-color: #fff;
     top: 10px;
-    left: 17px;
+    left: 0px;
     transform: rotate(45deg);
     z-index: -1;
+}
+.hp-hero-slider .slider-button--prev:not([disabled]):hover .icon{
+    transform: rotate(270deg);
 }
 .hp-hero-slider .slider-button .icon {
     position: relative;
     top: calc(50px - 8px);
-    left: 10px;
+    left: 0px;
     height: 1rem;
 }
 .hp-hero-slider .slider-button--prev .icon {

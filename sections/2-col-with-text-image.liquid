@@ -45,6 +45,7 @@
       .rigthsec h3{
         color:{{ block.settings.sub_text_color }};
         text-align:{{ block.settings.subhead_textalign }};
+        font-size:{{ block.settings.subhead_fontsize }};
       }
     {% else %}
       
@@ -279,6 +280,16 @@
             }
           ],
           "default":"left"
+        },
+        {
+          "type": "range",
+          "id": "subhead_fontsize",
+          "label": "Font Size",
+          "default":10,
+          "max": 56,
+          "min": 12,
+          "step": 1,
+          "unit": "px"
         },
         {
           "type": "color",

@@ -17,7 +17,7 @@
   width:100%
 }
 .sec-head-text h2 {
-    color: #A55E3F;
+    color: {{section.settings.body_text}};
     font-size: {{ section.settings.head_fontsize }}px;
     text-align: {{ section.settings.head_textalign }};
 }
@@ -39,10 +39,8 @@
   padding-left:{{ section.settings.insec_padding_left }}px;
   padding-right:{{ section.settings.insec_padding_right }}px;
 }
-.sec-head-text h2{
-  text-align:{{ section.settings.sub_heading }};
-}
 .rigthsec h3{
+  color:{{ section.settings.sub_text_color }};
   text-align:{{section.settings.subhead_textalign}};
 }
 

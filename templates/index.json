@@ -215,7 +215,8 @@
         "headline": "Contest Highlights",
         "body_text": "#a55e3f",
         "background": "linear-gradient(0deg, rgba(252, 247, 244, 1) 100%, rgba(0, 0, 0, 1) 100%)",
-        "sec_cus_class": "Type your own CSS Class"
+        "sec_cus_class": "Type your own CSS Class",
+        "sec_layout": "text_first"
       }
     }
   },

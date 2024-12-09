@@ -25,18 +25,7 @@
       <div class="sec-head-text"><h2>{{ section.settings.headline }}</h2></div>
       <div class="sec-data {% if section.settings.sec_layout == 'image_first' %}sec-col-reverse{% endif %}">
         <div class="left-sec"></div>
-        <div class="rigthsec">
-            {%- for block in section.blocks -%}
-              {% case block.type %}
-                {%- when 'sub_head' -%}
-                  <h2 class="sec-text__heading inline-richtext">
-                    {{ block.settings.sub_heading }}
-                  </h2>
-                {%- when 'sub_image' -%}
-                  {{ block.settings.image| image_url: width: 600, height:400|image_tag  }}
-              {%- endcase -%}
-            {%- endfor -%}
-        </div>
+        <div class="rigthsec">        </div>
       </div>
       
   </div>

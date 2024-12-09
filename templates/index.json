@@ -191,8 +191,8 @@
             "sub_heading": "Contest Highlights"
           }
         },
-        "content_DhzC76": {
-          "type": "content",
+        "sub_content_tLpAFb": {
+          "type": "sub_content",
           "settings": {
             "right_content": "<p>Painting, Drawing, Sketch and mandala types of artworks are accepted. Their is no any specific Theme, Size, or Medium of artwork.</p><p>Everyone can participate whether He/She is a beginner or a professional artist. All are welcome.</p><p>The artwork must have your signature.</p><p>Winner’s will be decided on the basis of the quality of artwork by our well-known, Professional, and Eminent jury panel.</p>"
           }
@@ -200,7 +200,7 @@
       },
       "block_order": [
         "sub_head_UkzeiY",
-        "content_DhzC76"
+        "sub_content_tLpAFb"
       ],
       "settings": {
         "headline": "Hello text & image"

@@ -188,7 +188,7 @@
         "sub_head_UkzeiY": {
           "type": "sub_head",
           "settings": {
-            "sub_heading": "Contest Highlights",
+            "sub_heading": "E-certificate For All",
             "sub_text_color": "#a55e3f"
           }
         },
@@ -212,9 +212,10 @@
         "sub_image_6jmfc9"
       ],
       "settings": {
-        "headline": "Hello text & image",
+        "headline": "Contest Highlights",
         "body_text": "#a55e3f",
-        "background": "linear-gradient(0deg, rgba(252, 247, 244, 1) 100%, rgba(0, 0, 0, 1) 100%)"
+        "background": "linear-gradient(0deg, rgba(252, 247, 244, 1) 100%, rgba(0, 0, 0, 1) 100%)",
+        "sec_cus_class": "Type your own CSS Class"
       }
     }
   },

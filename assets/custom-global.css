@@ -118,7 +118,7 @@
 .hp-hero-slider .slider-button.slider-button--next {
     transform: translate(-40px, -5px);
     left: auto;
-    right: 8px;
+    right: -40px;
 }
 .hp-hero-slider .slider-button span {
     height: 100px;

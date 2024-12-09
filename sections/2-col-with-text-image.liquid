@@ -11,28 +11,30 @@
   ],
   "blocks": [
     {
-      "name":"content",
+      "name":"sub_head",
       "limit":1,
-      "type": "content",
+      "type": "sub_head",
       "settings": [
         {
           "type": "text",
           "id": "sub_heading",
           "label": "Sub Heading",
           "placeholder": "Sub title of image"
-        },
+        },       
+      ]
+
+    },
+    {
+      "name":"content",
+      "limit":1,
+      "type": "content",
+      "settings":[
         {
           "type": "richtext",
           "id": "right_content",
           "label": "Content Block"
-        },
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "Image"
-        }
+        }        
       ]
-
     }
   ],
   "presets": [

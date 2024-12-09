@@ -212,9 +212,10 @@
         "sub_image_6jmfc9"
       ],
       "settings": {
-        "headline": "Hello text & image",
+        "headline": "Contest Highlights",
         "body_text": "#a55e3f",
-        "background": "linear-gradient(0deg, rgba(252, 247, 244, 1) 100%, rgba(0, 0, 0, 1) 100%)"
+        "background": "linear-gradient(0deg, rgba(252, 247, 244, 1) 100%, rgba(0, 0, 0, 1) 100%)",
+        "sec_cus_class": "Type your own CSS Class"
       }
     }
   },

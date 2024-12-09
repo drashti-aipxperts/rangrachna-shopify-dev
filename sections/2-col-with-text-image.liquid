@@ -39,8 +39,8 @@
                   <h2 class="sec-text__heading inline-richtext">
                     {{ block.settings.sub_heading }}
                   </h2>
-                {%- when 'sub_image' -%}
-                  {{ block.settings.image| image_url: width: 600, height:400|image_tag  }}
+                {% comment %} {%- when 'sub_image' -%}
+                  {{ block.settings.image| image_url: width: 600, height:400|image_tag  }} {% endcomment %}
               {%- endcase -%}
             {%- endfor -%}
         </div>

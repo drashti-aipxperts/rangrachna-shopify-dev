@@ -196,11 +196,18 @@
           "settings": {
             "right_content": "<p>Painting, Drawing, Sketch and mandala types of artworks are accepted. Their is no any specific Theme, Size, or Medium of artwork.</p><p>Everyone can participate whether He/She is a beginner or a professional artist. All are welcome.</p><p>The artwork must have your signature.</p><p>Winner’s will be decided on the basis of the quality of artwork by our well-known, Professional, and Eminent jury panel.</p>"
           }
+        },
+        "sub_image_6jmfc9": {
+          "type": "sub_image",
+          "settings": {
+            "image": "shopify://shop_images/Certificate-Final.png"
+          }
         }
       },
       "block_order": [
         "sub_head_UkzeiY",
-        "sub_content_tLpAFb"
+        "sub_content_tLpAFb",
+        "sub_image_6jmfc9"
       ],
       "settings": {
         "headline": "Hello text & image"

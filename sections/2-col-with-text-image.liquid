@@ -1,7 +1,16 @@
-<div class="{{ section.settings.sec_cus_class }} section-img">
+{%- style -%}
+.sec-data{
+  display: flex;
+  justify-content:center;
+}
+.section-img{
+  background-color : {{ section.settings.background }}
+}
+{%  endstyle %}
+<div class="section-img {{ section.settings.sec_cus_class }}">
   <div class="page-width">
       <div class="sec-head-text"><h2>{{ section.settings.headline }}</h2></div>
-      <div class="sec-data">
+      <div class="sec-data {% if section.settings.sec_layout == 'image_first' %}sec-col-reverse{% endif %}">
         <div class="left-sec">
           {%- for block in section.blocks -%}
             {% case block.type %}
@@ -50,8 +59,7 @@
     {
       "type": "text",
       "id":"sec_cus_class",
-      "label": "Custom CSS Class",
-      "default":"Type your own CSS Class"
+      "label": "Custom CSS Class"
     },
     {
       "type": "select",

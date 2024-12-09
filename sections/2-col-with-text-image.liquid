@@ -4,7 +4,20 @@
   justify-content:center;
 }
 .section-img{
-  background-color : {{ section.settings.background }}
+  background : {{ section.settings.background }}
+}
+.sec-head-text h2 {
+    color: #A55E3F;
+    font-size: {{ section.settings.head_fontsize }};
+    text-align: {{ section.settings.head_textalign }}
+}
+{% if section.settings.  == true %}
+  .sec-head-text{
+    display:none;
+  }
+{% endif %}
+.sec-data {
+  background : {{ section.settings.sub_background }}
 }
 {%  endstyle %}
 <div class="section-img {{ section.settings.sec_cus_class }}">
@@ -45,6 +58,37 @@
       "label":"Headline",
     },
     {
+      "type": "text",
+      "id": "head_fontsize",
+      "label": "Font Size",
+      "info": "font size on pixel,em,percentage "
+    },
+    {
+      "type": "select",
+      "id": "head_textalign",
+      "label": "Text alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value":"right",
+          "label":"Right"
+        }
+      ]
+    },
+    {
+      "type": "checkbox",
+      "id": "hide_head",
+      "label": "Hide Title from desktop & mobile",
+      "default":false
+    },
+    {
       "type": "color",
       "id": "body_text",
       "label": "Text Color",
@@ -77,6 +121,12 @@
       "default": "image_first",
       "label": "Image Placement",
       "info": "Image first is the default mobile layout"
+    },
+    {
+      "type": "color_background",
+      "id": "sub_background",
+      "label": "Inner Section Background",
+      "default": "linear-gradient(#ffffff, #000000)"
     }
   ],
   "blocks": [

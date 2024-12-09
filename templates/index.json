@@ -213,11 +213,15 @@
       ],
       "settings": {
         "headline": "Contest Highlights",
-        "head_fontsize": "32px",
+        "head_fontsize": 26,
         "head_textalign": "center",
         "hide_head": false,
         "body_text": "#a55e3f",
         "background": "linear-gradient(180deg, rgba(252, 247, 244, 1) 100%, rgba(0, 0, 0, 1) 100%)",
+        "head_padding_top": 10,
+        "head_padding_bottom": 10,
+        "head_padding_left": 10,
+        "head_padding_right": 10,
         "sec_cus_class": "",
         "sec_layout": "image_first",
         "sub_background": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%, rgba(0, 0, 0, 1) 100%)"

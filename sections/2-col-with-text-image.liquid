@@ -39,10 +39,19 @@
   padding-left:{{ section.settings.insec_padding_left }}px;
   padding-right:{{ section.settings.insec_padding_right }}px;
 }
-.rigthsec h3{
-  color:{{ section.settings.sub_text_color }};
-  text-align:{{section.settings.subhead_textalign}};
-}
+{% for block in section.blocks %}
+  {% case block.type %}
+    {% when sub_head %}
+      .rigthsec h3{
+        color:{{ block.settings.sub_text_color }};
+        text-align:{{ block.settings.subhead_textalign }};
+      }
+    {% else %}
+      
+  {% endcase %}
+  
+{% endfor %}
+
 
 {%  endstyle %}
 <div class="section-img {{ section.settings.sec_cus_class }}">

@@ -218,12 +218,48 @@
         "sec_cus_class": "Type your own CSS Class",
         "sec_layout": "text_first"
       }
+    },
+    "2_col_with_text_image_QiAN6H": {
+      "type": "2-col-with-text-image",
+      "blocks": {
+        "sub_head_8McJMn": {
+          "type": "sub_head",
+          "settings": {
+            "sub_heading": "",
+            "sub_text_color": "#000000"
+          }
+        },
+        "sub_content_aUQLXw": {
+          "type": "sub_content",
+          "settings": {
+            "right_content": "",
+            "Content_text_color": "#000000"
+          }
+        },
+        "sub_image_XQPWpa": {
+          "type": "sub_image",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "sub_head_8McJMn",
+        "sub_content_aUQLXw",
+        "sub_image_XQPWpa"
+      ],
+      "settings": {
+        "headline": "",
+        "body_text": "#000000",
+        "background": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 100%)",
+        "sec_cus_class": "",
+        "sec_layout": "image_first"
+      }
     }
   },
   "order": [
     "slideshow",
     "image_with_text_xYpnAz",
     "featured-collection-0",
-    "2_col_with_text_image_rmyq9U"
+    "2_col_with_text_image_rmyq9U",
+    "2_col_with_text_image_QiAN6H"
   ]
 }

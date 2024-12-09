@@ -224,7 +224,9 @@
         "sec_layout": "text_first",
         "sub_background": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%, rgba(0, 0, 0, 1) 100%)",
         "insec_padding_top": 30,
-        "insec_padding_bottom": 30
+        "insec_padding_bottom": 30,
+        "insec_padding_left": 30,
+        "insec_padding_Right": 10
       }
     }
   },

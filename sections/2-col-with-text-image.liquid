@@ -7,7 +7,20 @@
       "type": "text",
       "id": "headline",
       "label":"Headline",
+    },
+    {
+      "type": "color",
+      "id": "body_text",
+      "label": "Text Color",
+      "default": "#000000"
+    },
+    {
+      "type": "color_background",
+      "id": "background",
+      "label": "Background",
+      "default": "linear-gradient(#ffffff, #000000)"
     }
+
   ],
   "blocks": [
     {
@@ -20,7 +33,13 @@
           "id": "sub_heading",
           "label": "Sub Heading",
           "placeholder": "Sub title of image"
-        },       
+        },
+        {
+          "type": "color",
+          "id": "sub_text_color",
+          "label": "Text Color",
+          "default": "#000000"
+        }      
       ]
 
     },
@@ -30,10 +49,16 @@
       "type": "sub_content",
       "settings":[
         {
-          "type": "richtext",
+          "type": "html",
           "id": "right_content",
           "label": "Content Block"
-        }        
+        },
+        {
+          "type": "color",
+          "id": "Content_text_color",
+          "label": "Text Color",
+          "default": "#000000"
+        }       
       ]
     },
     {
@@ -45,7 +70,7 @@
           "type": "image_picker",
           "id": "image",
           "label": "Image"
-        }       
+        }      
       ]
     }
   ],

@@ -14,9 +14,7 @@
             {%- for block in section.blocks -%}
               {% case block.type %}
                 {%- when 'sub_head' -%}
-                  <h2
-                    class="sec-text__heading inline-richtext"
-                  >
+                  <h2 class="sec-text__heading inline-richtext">
                     {{ block.settings.sub_heading }}
                   </h2>
                 {%- when 'sub_image' -%}
@@ -54,8 +52,24 @@
       "id":"sec_cus_class",
       "label": "Custom CSS Class",
       "default":"Type your own CSS Class"
+    },
+    {
+      "type": "select",
+      "id": "sec_layout",
+      "options": [
+        {
+          "value": "image_first",
+          "label": "Image First"
+        },
+        {
+          "value": "text_first",
+          "label": "Image Second"
+        }
+      ],
+      "default": "image_first",
+      "label": "Image Placement",
+      "info": "Image first is the default mobile layout"
     }
-
   ],
   "blocks": [
     {

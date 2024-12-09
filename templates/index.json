@@ -188,13 +188,15 @@
         "sub_head_UkzeiY": {
           "type": "sub_head",
           "settings": {
-            "sub_heading": "Contest Highlights"
+            "sub_heading": "Contest Highlights",
+            "sub_text_color": "#a55e3f"
           }
         },
         "sub_content_tLpAFb": {
           "type": "sub_content",
           "settings": {
-            "right_content": "<p>Painting, Drawing, Sketch and mandala types of artworks are accepted. Their is no any specific Theme, Size, or Medium of artwork.</p><p>Everyone can participate whether He/She is a beginner or a professional artist. All are welcome.</p><p>The artwork must have your signature.</p><p>Winner’s will be decided on the basis of the quality of artwork by our well-known, Professional, and Eminent jury panel.</p>"
+            "right_content": "<p>Painting, Drawing, Sketch and mandala types of artworks are accepted. Their is no any specific Theme, Size, or Medium of artwork.</p><p>Everyone can participate whether He/She is a beginner or a professional artist. All are welcome.</p><p>The artwork must have your signature.</p><p>Winner’s will be decided on the basis of the quality of artwork by our well-known, Professional, and Eminent jury panel.</p>",
+            "Content_text_color": "#000000"
           }
         },
         "sub_image_6jmfc9": {
@@ -210,7 +212,9 @@
         "sub_image_6jmfc9"
       ],
       "settings": {
-        "headline": "Hello text & image"
+        "headline": "Hello text & image",
+        "body_text": "#a55e3f",
+        "background": "linear-gradient(0deg, rgba(252, 247, 244, 1) 100%, rgba(0, 0, 0, 1) 100%)"
       }
     }
   },

@@ -22,8 +22,6 @@
 .col-sec-data{
   padding-top:{{ section.settings.head_padding_top }};
   padding-bottom:{{ section.settings.head_padding_bottom }};
-  padding-left:{{ section.settings.head_padding_left }};
-  padding-right:{{ section.settings.head_padding_right }};
 }
 {%  endstyle %}
 <div class="section-img {{ section.settings.sec_cus_class }}">
@@ -140,26 +138,6 @@
       "type": "range",
       "id": "head_padding_bottom",
       "label": "Bottom Padding",
-      "unit":"px",
-      "default":10,
-      "min": 0,
-      "max": 100,
-      "step": 1
-    },
-    {
-      "type": "range",
-      "id": "head_padding_left",
-      "label": "Left Padding",
-      "unit":"px",
-      "default":10,
-      "min": 0,
-      "max": 100,
-      "step": 1
-    },
-    {
-      "type": "range",
-      "id": "head_padding_right",
-      "label": "Right Padding",
       "unit":"px",
       "default":10,
       "min": 0,

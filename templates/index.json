@@ -221,8 +221,10 @@
         "head_padding_top": 50,
         "head_padding_bottom": 80,
         "sec_cus_class": "",
-        "sec_layout": "image_first",
-        "sub_background": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%, rgba(0, 0, 0, 1) 100%)"
+        "sec_layout": "text_first",
+        "sub_background": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%, rgba(0, 0, 0, 1) 100%)",
+        "insec_padding_top": 10,
+        "insec_padding_bottom": 10
       }
     }
   },

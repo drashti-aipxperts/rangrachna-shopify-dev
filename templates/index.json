@@ -210,11 +210,15 @@
         "sub_image_kTmqTH"
       ],
       "settings": {
-        "headline": "",
-        "body_text": "#000000",
-        "background": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 100%)",
+        "headline": "Contest Highlights",
+        "head_fontsize": "28px",
+        "head_textalign": "center",
+        "hide_head": false,
+        "body_text": "#a55e3f",
+        "background": "linear-gradient(180deg, rgba(252, 247, 244, 1) 100%, rgba(0, 0, 0, 1) 100%)",
         "sec_cus_class": "",
-        "sec_layout": "image_first"
+        "sec_layout": "image_first",
+        "sub_background": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%, rgba(0, 0, 0, 1) 100%)"
       }
     }
   },

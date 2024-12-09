@@ -19,9 +19,16 @@
 .sec-data {
   background : {{ section.settings.sub_background }}
 }
+.col-sec-data{
+  padding-top:{{ section.settings.head_padding_top }};
+  padding-bottom:{{ section.settings.head_padding_bottom }};
+  padding-left:{{ section.settings.head_padding_left }};
+  padding-right:{{ section.settings.head_padding_right }};
+}
 {%  endstyle %}
 <div class="section-img {{ section.settings.sec_cus_class }}">
   <div class="page-width">
+    <div class="col-sec-data">
       <div class="sec-head-text"><h2>{{ section.settings.headline }}</h2></div>
       <div class="sec-data {% if section.settings.sec_layout == 'image_first' %}sec-col-reverse{% endif %}">
         <div class="left-sec">
@@ -45,6 +52,8 @@
             {%- endfor -%}
         </div>
       </div>
+    </div>
+      
       
   </div>
 </div>
@@ -58,10 +67,17 @@
       "label":"Headline",
     },
     {
-      "type": "text",
+      "type": "header",
+      "content": "Title Style"
+    },
+    {
+      "type": "range",
       "id": "head_fontsize",
       "label": "Font Size",
-      "info": "font size on pixel,em,percentage"
+      "unit":"px",
+      "default":16,
+      "min": 14,
+      "max": 56
     },
     {
       "type": "select",
@@ -96,10 +112,54 @@
       "default": "#000000"
     },
     {
+      "type": "header",
+      "content": "Section background color"
+    },
+    {
       "type": "color_background",
       "id": "background",
       "label": "Background",
       "default": "linear-gradient(#ffffff, #000000)"
+    },
+    {
+      "type": "header",
+      "content": "Section Padding:"
+    },
+    {
+      "type": "range",
+      "id": "head_padding_top",
+      "label": "Top Padding",
+      "unit":"px",
+      "default":10,
+      "min": 0,
+      "max": 100
+    },
+    {
+      "type": "range",
+      "id": "head_padding_bottom",
+      "label": "Bottom Padding",
+      "unit":"px",
+      "default":10,
+      "min": 0,
+      "max": 100
+    },
+    {
+      "type": "range",
+      "id": "head_padding_left",
+      "label": "Left Padding",
+      "unit":"px",
+      "default":10,
+      "min": 0,
+      "max": 100
+    },
+    {
+      "type": "range",
+      "id": "head_padding_right",
+      "label": "Right Padding",
+      "unit":"px",
+      "default":10,
+      "min": 0,
+      "max": 100
     },
     {
       "type": "text",
@@ -122,6 +182,10 @@
       "default": "image_first",
       "label": "Image Placement",
       "info": "Image first is the default mobile layout"
+    },
+    {
+      "type": "header",
+      "content": "Inner Section Styling:"
     },
     {
       "type": "color_background",

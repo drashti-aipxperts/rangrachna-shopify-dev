@@ -189,6 +189,7 @@
           "type": "sub_head",
           "settings": {
             "sub_heading": "E-certificate For All",
+            "subhead_textalign": "center",
             "sub_text_color": "#a55e3f"
           }
         },

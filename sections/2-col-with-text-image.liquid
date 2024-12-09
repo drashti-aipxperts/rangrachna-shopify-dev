@@ -2,9 +2,16 @@
 .sec-data{
   display: flex;
   justify-content:center;
+  gap: 20px;
+}
+.sec-col-reverse{
+  flex-direction: row-reverse;
 }
 .section-img{
   background : {{ section.settings.background }}
+}
+.section-img img{
+  width:100%
 }
 .sec-head-text h2 {
     color: #A55E3F;
@@ -23,6 +30,12 @@
   padding-top:{{ section.settings.head_padding_top }}px;
   padding-bottom:{{ section.settings.head_padding_bottom }}px;
 }
+.sec-data{
+  padding-top:{{ section.settings.insec_padding_top }}px;
+  padding-bottom{{ section.settings.insec_padding_top }}px;
+
+}
+
 {%  endstyle %}
 <div class="section-img {{ section.settings.sec_cus_class }}">
   <div class="page-width">
@@ -175,7 +188,27 @@
       "id": "sub_background",
       "label": "Inner Section Background",
       "default": "linear-gradient(#ffffff, #000000)"
-    }
+    },
+    {
+      "type": "range",
+      "id": "insec_padding_top",
+      "label": "Top Padding",
+      "unit":"px",
+      "default":10,
+      "min": 0,
+      "max": 100,
+      "step": 1
+    },
+    {
+      "type": "range",
+      "id": "insec_padding_bottom",
+      "label": "Bottom Padding",
+      "unit":"px",
+      "default":10,
+      "min": 0,
+      "max": 100,
+      "step": 1
+    },
   ],
   "blocks": [
     {

@@ -213,7 +213,7 @@
       ],
       "settings": {
         "headline": "Contest Highlights",
-        "head_fontsize": "28px",
+        "head_fontsize": "32px",
         "head_textalign": "center",
         "hide_head": false,
         "body_text": "#a55e3f",

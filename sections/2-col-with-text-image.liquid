@@ -39,6 +39,12 @@
   padding-left:{{ section.settings.insec_padding_left }}px;
   padding-right:{{ section.settings.insec_padding_right }}px;
 }
+.sec-head-text h2{
+  text-align:{{ section.settings.sub_heading }};
+}
+.rigthsec h3{
+  text-align:{{section.settings.subhead_textalign}};
+}
 
 {%  endstyle %}
 <div class="section-img {{ section.settings.sec_cus_class }}">
@@ -58,9 +64,9 @@
             {%- for block in section.blocks -%}
               {% case block.type %}
                 {%- when 'sub_head' -%}
-                  <h2 class="sec-text__heading inline-richtext">
+                  <h3 class="sec-text__heading inline-richtext">
                     {{ block.settings.sub_heading }}
-                  </h2>
+                  </h3>
                 {%- when 'sub_image' -%}
                   {{ block.settings.image| image_url: width: 600, height:400|image_tag  }}
               {%- endcase -%}
@@ -68,8 +74,6 @@
         </div>
       </div>
     </div>
-      
-      
   </div>
 </div>
 {% schema %}
@@ -244,6 +248,30 @@
           "id": "sub_heading",
           "label": "Sub Heading",
           "placeholder": "Sub title of image"
+        },
+        {
+          "type": "header",
+          "content": "Style"
+        },
+        {
+          "type": "select",
+          "id": "subhead_textalign",
+          "label": "Text alignment",
+          "options": [
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            },
+            {
+              "value":"right",
+              "label":"Right"
+            }
+          ],
+          "default":"left"
         },
         {
           "type": "color",

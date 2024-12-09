@@ -8,7 +8,7 @@
 }
 .sec-head-text h2 {
     color: #A55E3F;
-    font-size: {{ section.settings.head_fontsize }};
+    font-size: {{ section.settings.head_fontsize }}px;
     text-align: {{ section.settings.head_textalign }};
 }
 {% if section.settings.hide_head  == true %}
@@ -20,8 +20,8 @@
   background : {{ section.settings.sub_background }}
 }
 .col-sec-data{
-  padding-top:{{ section.settings.head_padding_top }};
-  padding-bottom:{{ section.settings.head_padding_bottom }};
+  padding-top:{{ section.settings.head_padding_top }}px;
+  padding-bottom:{{ section.settings.head_padding_bottom }}px;
 }
 {%  endstyle %}
 <div class="section-img {{ section.settings.sec_cus_class }}">

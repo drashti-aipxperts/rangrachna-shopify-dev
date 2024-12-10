@@ -14,25 +14,32 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "image_CqFLXY": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/footer_logo.png",
-            "image_width": 100,
-            "alignment": ""
-          }
-        },
-        "link_list_jhP3Vb": {
+        "link_list_mLmqkP": {
           "type": "link_list",
           "settings": {
             "heading": "About us",
             "menu": "footer"
           }
+        },
+        "link_list_jhP3Vb": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Help",
+            "menu": "footer-menu-2"
+          }
+        },
+        "text_xmbVQT": {
+          "type": "text",
+          "settings": {
+            "heading": "Instagram Feeds",
+            "subtext": "<p>Share contact information, store details, and brand content with your customers.</p>"
+          }
         }
       },
       "block_order": [
-        "image_CqFLXY",
-        "link_list_jhP3Vb"
+        "link_list_mLmqkP",
+        "link_list_jhP3Vb",
+        "text_xmbVQT"
       ],
       "settings": {
         "color_scheme": "scheme-3",

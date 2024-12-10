@@ -11,52 +11,39 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
-    "newsletter": {
-      "type": "newsletter",
+    "footer": {
+      "type": "footer",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "image_CqFLXY": {
+          "type": "image",
           "settings": {
-            "heading": "Subscribe to our emails",
-            "heading_size": "h1"
+            "image": "shopify://shop_images/footer_logo.png",
+            "image_width": 100,
+            "alignment": ""
           }
         },
-        "paragraph": {
-          "type": "paragraph",
+        "link_list_jhP3Vb": {
+          "type": "link_list",
           "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.</p>"
+            "heading": "About us",
+            "menu": "footer"
           }
-        },
-        "email-form": {
-          "type": "email_form",
-          "settings": {}
         }
       },
       "block_order": [
-        "heading",
-        "paragraph",
-        "email-form"
+        "image_CqFLXY",
+        "link_list_jhP3Vb"
       ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "scheme-3",
-        "full_width": true,
-        "padding_top": 28,
-        "padding_bottom": 0
-      }
-    },
-    "footer": {
-      "type": "footer",
       "settings": {
         "color_scheme": "scheme-3",
         "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
-        "enable_follow_on_shop": true,
-        "show_social": true,
-        "enable_country_selector": true,
-        "enable_language_selector": true,
-        "payment_enable": true,
-        "show_policy": true,
+        "enable_follow_on_shop": false,
+        "show_social": false,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "payment_enable": false,
+        "show_policy": false,
         "margin_top": 0,
         "padding_top": 44,
         "padding_bottom": 60
@@ -64,7 +51,6 @@
     }
   },
   "order": [
-    "newsletter",
     "footer"
   ]
 }

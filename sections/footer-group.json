@@ -14,6 +14,15 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "company_info_UcgR8J": {
+          "type": "company_info",
+          "settings": {
+            "image": "shopify://shop_images/footer_logo.png",
+            "image_width": 100,
+            "alignment": "",
+            "footer_info": "Art is when creativity is developed without strategy."
+          }
+        },
         "link_list_mLmqkP": {
           "type": "link_list",
           "settings": {
@@ -37,6 +46,7 @@
         }
       },
       "block_order": [
+        "company_info_UcgR8J",
         "link_list_mLmqkP",
         "link_list_jhP3Vb",
         "text_xmbVQT"

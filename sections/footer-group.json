@@ -17,8 +17,8 @@
         "company_info_UcgR8J": {
           "type": "company_info",
           "settings": {
-            "image": "shopify://shop_images/footer_logo.png",
-            "image_width": 100,
+            "flogo_image": "shopify://shop_images/footer_logo.png",
+            "image_width": 50,
             "alignment": "",
             "footer_info": "Art is when creativity is developed without strategy."
           }

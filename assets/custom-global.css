@@ -197,7 +197,11 @@ footer{
  padding-bottom: 0 !important;
  border-top: 6px solid #ffffff;
 }
-
+footer .footer__copyright{
+    color: #ffffff;
+    font-size: 26px;
+    line-height: 0.4em;
+}
 .footer-block__company-details .fcompany_logo img{
     width: auto;
     max-width: 100%;

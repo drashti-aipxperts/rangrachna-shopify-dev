@@ -82,6 +82,14 @@
                 {%- case block.type -%}
                   {%- when '@app' -%}
                     {% render block %}
+                  {%- when 'company_info' -%}
+                    <div class="footer-block__company-details">
+                      <img 
+                        src="{{ block.settings.flogo_image|image_url: width: 512  }}"
+                        width="{{ block.settings.flogo_image.width }}"
+                        height="{{ block.settings.flogo_image.height }}"
+                      >
+                    </div>
                   {%- when 'text' -%}
                     <div class="footer-block__details-content rte">
                       {{ block.settings.subtext }}
@@ -249,7 +257,7 @@
       </div>
     {%- endunless -%}
   {%- endif -%}
-
+  {% comment %} Footer bottom section {% endcomment %}
   <div
     class="footer__content-bottom{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
     {% if settings.animations_reveal_on_scroll %}
@@ -433,7 +441,7 @@
       "settings": [
         {
           "type": "image_picker",
-          "id": "image",
+          "id": "flogo_image",
           "label": "Logo"
         },
         {

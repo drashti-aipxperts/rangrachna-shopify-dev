@@ -207,4 +207,7 @@ footer .footer__content-bottom{
     max-width: 100%;
     height: auto;
 }
+footer h2{
+    color: #a55e3f;
+}
 /* Footer End */

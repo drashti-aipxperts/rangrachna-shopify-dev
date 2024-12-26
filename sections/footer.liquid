@@ -89,7 +89,7 @@
                         width="{{ block.settings.flogo_image.width }}"
                         height="{{ block.settings.flogo_image.height }}"
                       >
-                      <p>{{ block.settings.header }}</p>
+                      <p>{{ block.settings.footer_info }}</p>
                     </div>
                   {%- when 'text' -%}
                     <div class="footer-block__details-content rte">
@@ -483,7 +483,7 @@
           "type": "inline_richtext",
           "id": "footer_info",
           "default": "Hello",
-          "label": "Content"
+          "label": " "
         },
       ]
     }

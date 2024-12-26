@@ -192,3 +192,13 @@
 .image-with-text__content .image-txt-left{
     text-align: left;
 }
+/* Footer */
+footer{
+ padding-bottom: 0 !important;
+ border-top: 6px solid #ffffff;
+}
+footer .footer__content-bottom{
+    padding-top: 0 !important;
+    background-image: url('./images/footer-bottom-img.jpg');
+}
+/* Footer End */

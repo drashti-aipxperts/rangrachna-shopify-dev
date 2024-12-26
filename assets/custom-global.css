@@ -202,11 +202,9 @@ footer .footer__content-bottom{
     background-image: url('./images/footer-bottom-img.jpg');
     background-color: #fcf7f4;
 }
-.footer-block__company-details .fcompany_logo{
+.footer-block__company-details .fcompany_logo img{
     width: auto;
+    max-width: 100%;
     height: auto;
-    display: block;
-    position: absolute;
-    object-fit: contain;
 }
 /* Footer End */

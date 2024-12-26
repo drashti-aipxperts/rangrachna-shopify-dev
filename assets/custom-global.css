@@ -197,11 +197,7 @@ footer{
  padding-bottom: 0 !important;
  border-top: 6px solid #ffffff;
 }
-footer .footer__content-bottom{
-    padding-top: 0 !important;
-    background-image: url('./images/footer-bottom-img.jpg');
-    background-color: #fcf7f4;
-}
+
 .footer-block__company-details .fcompany_logo img{
     width: auto;
     max-width: 100%;

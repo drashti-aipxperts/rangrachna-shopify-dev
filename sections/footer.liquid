@@ -25,6 +25,11 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+  footer .footer__content-bottom{
+    padding-top: 0 !important;
+    background-image: url("{{'footer-bottom-img.jpg' | asset_url}}");
+    background-color: #fcf7f4;
+  }
 {%- endstyle -%}
 
 <footer class="footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">

@@ -104,6 +104,7 @@
                 {%- endif %}
               </a>
             </h3>
+            <span class="pro_coll_sku">{{ card_collection.sku }}</span>
             {%- if card_collection.description != blank -%}
               <p class="card__caption">
                 {{- card_collection.description | strip_html | truncatewords: 12 -}}

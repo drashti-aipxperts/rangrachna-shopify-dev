@@ -215,4 +215,12 @@ footer .fcompany_txt{
     font-weight: 300;   
     line-height: 25px;
 }
+footer .list-social__item .svg-wrapper{
+    width: 32px;
+    height: 32px;
+}
+footer .list-social__item .list-social__link {
+    padding: 0px 10px 0px 0px;
+    color: #a65e3f;
+}
 /* Footer End */

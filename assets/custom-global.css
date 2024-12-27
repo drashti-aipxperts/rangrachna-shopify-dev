@@ -194,8 +194,9 @@
 }
 /* Footer */
 footer{
- padding-bottom: 0 !important;
- border-top: 6px solid #ffffff;
+    padding-bottom: 0 !important;
+    border-top: #ffffff 5px solid !important;
+    box-shadow: 10px 10px 10px 10px #ffffff
 }
 footer .footer__copyright{
     color: #ffffff;
@@ -214,6 +215,9 @@ footer .fcompany_txt{
     font-size: 15px;
     font-weight: 300;   
     line-height: 25px;
+}
+footer .footer__list-social.list-social:only-child{
+    justify-content: left   ;
 }
 footer .list-social__item .svg-wrapper{
     width: 32px;

@@ -210,4 +210,9 @@ footer .footer__copyright{
 footer h2{
     color: #a55e3f;
 }
+footer .fcompany_txt{
+    font-size: 15px;
+    font-weight: 300;   
+    line-height: 25px;
+}
 /* Footer End */

@@ -100,9 +100,13 @@
                         src="{{ block.settings.flogo_image|image_url: width: 80  }}"
                         width="{{ block.settings.flogo_image.width }}"
                         height="{{ block.settings.flogo_image.height }}"
-                      >
+                      > 
                       </div>
-                      <p>{{ block.settings.fcnt_txt }}</p>
+                      <p class="fcompany_txt">{{ block.settings.fcnt_txt }}</p>
+                      <div class="fcompany_social">
+                        {%- if section.settings.show_social and has_social_icons -%}
+                        {%- render 'social-icons', class: 'footer__list-social' -%}
+                      {%- endif -%}</div>
                     </div>
                   {%- when 'text' -%}
                     <div class="footer-block__details-content rte">
@@ -264,9 +268,7 @@
             </div>
           {%- endif -%}
 
-          {%- if section.settings.show_social and has_social_icons -%}
-            {%- render 'social-icons', class: 'footer__list-social' -%}
-          {%- endif -%}
+          
         </div>
       </div>
     {%- endunless -%}

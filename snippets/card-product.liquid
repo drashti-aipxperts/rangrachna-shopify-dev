@@ -160,10 +160,12 @@
             >
               {{ card_product.title | escape }}
             </a>           
-            <!-- Product without variations (single variant) -->
-            {% assign single_variant = product.variants.first %}
-            <p>SKU: {{ single_variant.sku }}</p>
+          
           </h3>
+          <!-- Product without variations (single variant) -->
+          {% assign single_variant = card_product.variants.first %}
+          <p>SKU: {{ single_variant.sku }}</p>
+          <span class="card_collection_name">{{ card_product.collections.first.title  }}</span>
           <div class="card-information">
            
             {%- if show_vendor -%}

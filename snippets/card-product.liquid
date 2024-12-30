@@ -164,7 +164,7 @@
           </h3>
           <!-- Product without variations (single variant) -->
           {% assign single_variant = card_product.variants.first %}
-          {% if single_variant.sku != '' %}
+          {% if single_variant.sku %}
           <p>SKU: {{ single_variant.sku }}</p>
           {% endif %}
           <span class="card_collection_name">{{ card_product.collections.first.title  }}</span>

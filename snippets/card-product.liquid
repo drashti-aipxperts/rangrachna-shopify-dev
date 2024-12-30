@@ -159,10 +159,13 @@
               aria-labelledby="CardLink-{{ section_id }}-{{ card_product.id }} Badge-{{ section_id }}-{{ card_product.id }}"
             >
               {{ card_product.title | escape }}
-            </a>
+            </a>           
+            <!-- Product without variations (single variant) -->
+            {% assign single_variant = product.variants.first %}
+            <p>SKU: {{ single_variant.sku }}</p>
           </h3>
           <div class="card-information">
-            <span>test</span>
+           
             {%- if show_vendor -%}
               <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
               <div class="caption-with-letter-spacing light">{{ card_product.vendor }}</div>

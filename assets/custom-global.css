@@ -192,6 +192,18 @@
 .image-with-text__content .image-txt-left{
     text-align: left;
 }
+/* Card product */
+.collection__title h2,
+.collection__description p{
+    text-align: center;
+}
+form[data-type="add-to-cart-form"] button span,
+.quick-add button.quick-add__submit span
+{
+    color: #ffffff;
+}
+/* End card product */
+
 /* Footer */
 footer{
     padding-bottom: 0 !important;

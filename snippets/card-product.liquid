@@ -611,18 +611,6 @@
             {% endif %}
           </div>
           <div>
-            {% assign variant_opt = card_product.variants %}
-            {%  if variant_opt.size > 1 %}
-              <a role="link" aria-disabled="true" class="full-unstyled-link">
-                <button type="submit" class="btn btn-add-to-cart">Add to Cart</button>
-              </a>
-            {% else %}
-              <form method="post" action="/cart/add">
-                <input type="hidden" name="id" value="{{ variant_opt.first.id }}">
-                <button type="submit" class="btn btn-add-to-cart">Add to Cart</button>
-              </form>
-            {% endif %}
-            
           </div>
         </div>
       </div>

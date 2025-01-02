@@ -198,9 +198,9 @@
     text-align: center;
 }
 form[data-type="add-to-cart-form"] button span,
-.quick-add button.quick-add__submit span
+.quick-add .quick-add__submit span
 {
-    color: #ffffff;
+    color: #ffffff !important;
 }
 /* End card product */
 

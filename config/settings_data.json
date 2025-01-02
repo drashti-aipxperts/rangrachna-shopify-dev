@@ -145,10 +145,10 @@
     "color_schemes": {
       "scheme-1": {
         "settings": {
-          "background": "rgba(0,0,0,0)",
+          "background": "#ffffff",
           "background_gradient": "",
-          "text": "#000000",
-          "button": "#0d1e64",
+          "text": "#030303",
+          "button": "#0e1b4d",
           "button_label": "#ffffff",
           "secondary_button_label": "#0e1b4d",
           "shadow": "#0e1b4d"
